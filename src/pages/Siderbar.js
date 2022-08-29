@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 
-function Siderbar() {
+function Sidrbar(){
   return (
-  <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-
+    <>
+      <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon">
           <img src="img/logo/logo2.png"/>
         </div>
         <div class="sidebar-brand-text mx-3">RuangAdmin</div>
       </a>
-      <hr class="sidebar-divider my-0">
+      <hr class="sidebar-divider my-0"/>
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -72,7 +72,7 @@ function Siderbar() {
           <span>UI Colors</span>
         </a>
       </li>
-      <hr class="sidebar-divider"/>
+      <hr class="sidebar-divider">
       <div class="sidebar-heading">
         Examples
       </div>
@@ -101,7 +101,8 @@ function Siderbar() {
       <hr class="sidebar-divider">
       <div class="version" id="version-ruangadmin"></div>
     </ul>
-    )
-  };
+    </>
+  );
+}
 
 export default Siderbar;
