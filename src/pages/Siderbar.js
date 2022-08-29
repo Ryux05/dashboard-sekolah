@@ -72,7 +72,7 @@ function Sidrbar(){
           <span>UI Colors</span>
         </a>
       </li>
-      <hr class="sidebar-divider">
+      <hr class="sidebar-divider"/>
       <div class="sidebar-heading">
         Examples
       </div>
@@ -98,7 +98,7 @@ function Sidrbar(){
           <span>Charts</span>
         </a>
       </li>
-      <hr class="sidebar-divider">
+      <hr class="sidebar-divider"/>
       <div class="version" id="version-ruangadmin"></div>
     </ul>
     </>
