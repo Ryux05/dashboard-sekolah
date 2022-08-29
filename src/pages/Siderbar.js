@@ -6,7 +6,7 @@ function Siderbar() {
 
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon">
-          <img src="img/logo/logo2.png">
+          <img src="img/logo/logo2.png"/>
         </div>
         <div class="sidebar-brand-text mx-3">RuangAdmin</div>
       </a>
@@ -16,7 +16,7 @@ function Siderbar() {
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
-      <hr class="sidebar-divider">
+      <hr class="sidebar-divider"/>
       <div class="sidebar-heading">
         Features
       </div>
@@ -72,7 +72,7 @@ function Siderbar() {
           <span>UI Colors</span>
         </a>
       </li>
-      <hr class="sidebar-divider">
+      <hr class="sidebar-divider"/>
       <div class="sidebar-heading">
         Examples
       </div>
